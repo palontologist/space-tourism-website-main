@@ -1,0 +1,56 @@
+.background {
+  background-image: url("/home/background-home-desktop.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 10rem 10rem 10rem;
+  width: 100%;
+}
+
+.description {
+  max-width: 400px;
+}
+
+.heading {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 4.72px;
+}
+
+.title {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150px;
+  margin: 1.3rem 0 1rem;
+}
+
+.info {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+}
+
+.button {
+  font-family: "Bellefair", serif;
+  font-style: normal;
+  font-size: 32px;
+  letter-spacing: 2px;
+  border-radius: 50%;
+  width: 274px;
+  height: 274px;
+  border: none;
+}
