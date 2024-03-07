@@ -25,10 +25,15 @@
   font-weight: 200;
   font-style: normal;
   letter-spacing: 2.7px;
-  padding: 3rem 4rem 3rem;
+  padding: 3rem 4rem 0;
   background-color: rgba(151, 151, 151, 0.3);
 }
 
 .bold {
   font-weight: 600;
+}
+
+.active {
+  border-bottom: #ffffff 4px solid;
+  padding-bottom: 3rem;
 }

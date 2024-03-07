@@ -22,22 +22,38 @@ const Menu = () => {
       <ul className={styles[`menu-list`]}>
         <li>
           <NavLink to="/">
-            <span className={styles.bold}>00</span> HOME
+            {({ isActive }) => (
+              <p className={isActive ? styles.active : ""}>
+                <span className={styles.bold}>00</span> HOME
+              </p>
+            )}
           </NavLink>
         </li>
         <li>
           <NavLink to="/destination">
-            <span className={styles.bold}>01</span> DESTINATION
+            {({ isActive }) => (
+              <p className={isActive ? styles.active : ""}>
+                <span className={styles.bold}>01</span> DESTINATION
+              </p>
+            )}
           </NavLink>
         </li>
         <li>
           <NavLink to="/crew">
-            <span className={styles.bold}>02</span> CREW{" "}
+            {({ isActive }) => (
+              <p className={isActive ? styles.active : ""}>
+                <span className={styles.bold}>02</span> CREW
+              </p>
+            )}
           </NavLink>
         </li>
         <li>
           <NavLink to="/technology">
-            <span className={styles.bold}>03</span> TECHNOLOGY{" "}
+            {({ isActive }) => (
+              <p className={isActive ? styles.active : ""}>
+                <span className={styles.bold}>03</span> TECHNOLOGY
+              </p>
+            )}
           </NavLink>
         </li>
       </ul>
