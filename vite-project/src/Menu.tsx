@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "./Menu.module.css";
 
 const Menu = () => {
@@ -20,16 +21,24 @@ const Menu = () => {
       <div className={styles.line}></div>
       <ul className={styles[`menu-list`]}>
         <li>
-          <span className={styles.bold}>00</span> HOME
+          <NavLink to="/">
+            <span className={styles.bold}>00</span> HOME
+          </NavLink>
         </li>
         <li>
-          <span className={styles.bold}>01</span> DESTINATION
+          <NavLink to="/destination">
+            <span className={styles.bold}>01</span> DESTINATION
+          </NavLink>
         </li>
         <li>
-          <span className={styles.bold}>02</span> CREW
+          <NavLink to="/crew">
+            <span className={styles.bold}>02</span> CREW{" "}
+          </NavLink>
         </li>
         <li>
-          <span className={styles.bold}>03</span> TECHNOLOGY
+          <NavLink to="/technology">
+            <span className={styles.bold}>03</span> TECHNOLOGY{" "}
+          </NavLink>
         </li>
       </ul>
     </div>
