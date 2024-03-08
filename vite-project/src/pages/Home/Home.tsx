@@ -18,7 +18,7 @@ const Home = () => {
               this world experience!
             </p>
           </div>
-          <Link to="destination">
+          <Link to="destination/moon">
             <button className={styles.button}>EXPLORE</button>
           </Link>
         </div>

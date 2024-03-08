@@ -30,7 +30,7 @@ const Menu = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/destination">
+          <NavLink to="/destination/moon">
             {({ isActive }) => (
               <p className={isActive ? styles.active : ""}>
                 <span className={styles.bold}>01</span> DESTINATION
