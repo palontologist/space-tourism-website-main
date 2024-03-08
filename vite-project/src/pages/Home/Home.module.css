@@ -53,4 +53,12 @@
   width: 274px;
   height: 274px;
   border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0px 0px 5px 74px rgba(151, 151, 151, 0.42);
+  -moz-box-shadow: 0px 0px 5px 74px rgba(151, 151, 151, 0.42);
+  box-shadow: 0px 0px 5px 74px rgba(151, 151, 151, 0.42);
 }
