@@ -1,0 +1,49 @@
+:root {
+  --main-font: "Bellefair", serif;
+  --second-font-regular: "Barlow", sans-serif;
+  --second-font-condensed: "Barlow Condensed", sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 10rem;
+}
+
+.line {
+  width: 444px;
+  background-color: #383b4b;
+  height: 1px;
+}
+
+.description {
+  width: 444px;
+  font-family: var(--second-font-regular);
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  margin: 2rem 0;
+}
+
+.name {
+  font-family: var(--main-font);
+  font-size: 100px;
+}
+
+.bottom-section {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.bottom-title {
+  font-family: var(--second-font-condensed);
+  letter-spacing: 2.36px;
+  color: #d0d6f9;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.bottom-info {
+  font-family: var(--main-font);
+  font-size: 28px;
+}
