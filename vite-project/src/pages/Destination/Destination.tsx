@@ -1,19 +1,24 @@
 import styles from "./Destination.module.css";
 import Menu from "../../Menu";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Planet from "../Planet/Planet";
 
-const Destination = () => {
+interface Props {
+  planet: string;
+}
+
+const Destination = ({ planet }: Props) => {
   return (
     <div className={styles.background}>
       <Menu />
       <div className={styles.layout}>
         <div>
           <div>
-            <h1>
+            <h1 className={styles.title}>
               <span>01</span>PICK YOUR DESTINATION
             </h1>
           </div>
-          <div>
+          <div className={styles[`second-section`]}>
             <div className={styles[`planets-menu`]}>
               <nav>
                 <NavLink to="../moon">
@@ -44,6 +49,7 @@ const Destination = () => {
                 </NavLink>
               </nav>
             </div>
+            <Planet planet={planet} />
           </div>
         </div>
       </div>
