@@ -27,7 +27,18 @@ const router = createBrowserRouter([
   },
   {
     path: "crew",
-    element: <Crew />,
+    children: [
+      {
+        path: "commander",
+        element: <Crew crew="Commander" />,
+      },
+      {
+        path: "mission-specialist",
+        element: <Crew crew="Mission Specialist" />,
+      },
+      { path: "pilot", element: <Crew crew="Pilot" /> },
+      { path: "flight-engineer", element: <Crew crew="Flight Engineer" /> },
+    ],
   },
   {
     path: "technology",

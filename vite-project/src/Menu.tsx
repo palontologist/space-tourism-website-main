@@ -39,7 +39,7 @@ const Menu = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/crew">
+          <NavLink to="/crew/commander">
             {({ isActive }) => (
               <p className={isActive ? styles.active : ""}>
                 <span className={styles.bold}>02</span> CREW
