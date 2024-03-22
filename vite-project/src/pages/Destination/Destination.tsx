@@ -1,24 +1,27 @@
 import styles from "./Destination.module.css";
-import Menu from "../../Menu";
+import Menu from "../../components/Menu/Menu";
 import { NavLink } from "react-router-dom";
-import Planet from "../Planet/Planet";
-
+import PlanetData from "../../components/PlanetData/PlanetData";
+import data from "../../data.json";
 interface Props {
   planet: string;
 }
 
 const Destination = ({ planet }: Props) => {
+  const planetData = data.destinations.find(
+    (destination) => destination.name === planet
+  );
   return (
     <div className={styles.background}>
       <Menu />
-      <div className={styles.layout}>
-        <div>
+      <div className={styles.container}>
+        <h1 className={styles.title}>
+          <span>01</span>PICK YOUR DESTINATION
+        </h1>
+
+        <div className={styles[`second-section`]}>
+          <img src={planetData?.images.png} />
           <div>
-            <h1 className={styles.title}>
-              <span>01</span>PICK YOUR DESTINATION
-            </h1>
-          </div>
-          <div className={styles[`second-section`]}>
             <div className={styles[`planets-menu`]}>
               <nav>
                 <NavLink to="../moon">
@@ -49,7 +52,7 @@ const Destination = ({ planet }: Props) => {
                 </NavLink>
               </nav>
             </div>
-            <Planet planet={planet} />
+            <PlanetData planet={planet} />
           </div>
         </div>
       </div>
