@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import Menu from "../../Menu";
+import Menu from "../../components/Menu/Menu";
 import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <>
+    <div className={styles.background}>
       <Menu />
       <div className={styles.container}>
         <div className={styles.description}>
@@ -21,7 +21,7 @@ const Home = () => {
           <button className={styles.button}>EXPLORE</button>
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 
