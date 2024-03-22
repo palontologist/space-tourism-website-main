@@ -1,10 +1,13 @@
 .menu {
   margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #ffffff;
+  position: fixed;
+  top: 10px;
+  width: 100%;
 }
 
 .logoContainer {
@@ -20,10 +23,10 @@
 }
 
 .menu-list {
-  padding-left: 5rem;
+  padding-left: 8rem;
   padding-right: 10rem;
   display: flex;
-  gap: 2.5rem;
+  gap: 3rem;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -34,8 +37,8 @@
 
 .menu-list a > span {
   display: block;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .bold {

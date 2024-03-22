@@ -1,18 +1,17 @@
 import data from "../../data.json";
-import styles from "./Planet.module.css";
+import styles from "./PlanetData.module.css";
 
 interface Props {
   planet: string;
 }
 
-const Planet = ({ planet }: Props) => {
+const PlanetData = ({ planet }: Props) => {
   const planetData = data.destinations.find(
     (destination) => destination.name === planet
   );
 
   return (
     <div className={styles.container}>
-      <img src={planetData?.images.png} />
       <div>
         <h1 className={styles.name}>{planetData?.name.toUpperCase()}</h1>
         <p className={styles.description}>{planetData?.description}</p>
@@ -37,4 +36,4 @@ const Planet = ({ planet }: Props) => {
   );
 };
 
-export default Planet;
+export default PlanetData;
