@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Menu from "../../components/Menu/Menu";
 import styles from "./Crew.module.css";
-import MemberData from "../../components/Member/Member";
+import MemberData from "../../components/Member/MemberData";
 import data from "../../data.json";
 
 interface Props {

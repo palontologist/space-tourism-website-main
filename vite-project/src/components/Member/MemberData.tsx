@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import styles from "./Member.module.css";
+import styles from "./MemberData.module.css";
 
 interface Props {
   crew: string;
