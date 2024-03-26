@@ -9,11 +9,11 @@
   flex-direction: column;
 }
 
-.role {
-  font-family: var(--main-font);
-  font-size: 32px;
-  /* opacity: 0.5; */
-  color: rgba(255, 255, 255, 0.5);
+.caption {
+  font-size: 16px;
+  font-family: var(--second-font-condensed);
+  letter-spacing: 2.7px;
+  color: #d0d6f9;
 }
 
 .name {
@@ -23,7 +23,7 @@
   margin-bottom: 2rem;
 }
 
-.bio {
+.description {
   width: 444px;
   font-family: var(--second-font-regular);
   font-size: 18px;

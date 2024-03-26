@@ -11,8 +11,8 @@ const MemberData = ({ technology }: Props) => {
 
   return (
     <div className={styles.container}>
-      <p>THE TERMINOLOGY</p>
-      <h1 className={styles.role}>{technologyData?.name.toUpperCase()}</h1>
+      <p className={styles.caption}>THE TERMINOLOGY</p>
+      <h1 className={styles.name}>{technologyData?.name.toUpperCase()}</h1>
       <p className={styles.description}>
         {technologyData?.description.toLocaleUpperCase()}
       </p>
