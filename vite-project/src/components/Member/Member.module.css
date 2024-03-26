@@ -4,13 +4,23 @@
   --second-font-condensed: "Barlow Condensed", sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .role {
   font-family: var(--main-font);
+  font-size: 32px;
+  /* opacity: 0.5; */
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .name {
   font-family: var(--main-font);
   font-size: 56px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .bio {
@@ -19,11 +29,4 @@
   font-size: 18px;
   line-height: 32px;
   color: #d0d6f9;
-  /* margin: 2rem 0; */
-}
-
-.container {
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
 }
