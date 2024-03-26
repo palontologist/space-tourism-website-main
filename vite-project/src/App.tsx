@@ -42,7 +42,20 @@ const router = createBrowserRouter([
   },
   {
     path: "technology",
-    element: <Technology />,
+    children: [
+      {
+        path: "launch-vehicle",
+        element: <Technology technology="Launch vehicle" />,
+      },
+      {
+        path: "Spaceport",
+        element: <Technology technology="Spaceport" />,
+      },
+      {
+        path: "space-capsule",
+        element: <Technology technology="Space capsule" />,
+      },
+    ],
   },
 ]);
 

@@ -50,7 +50,7 @@ const Menu = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/technology">
+          <NavLink to="/technology/launch-vehicle">
             {({ isActive }) => (
               <span className={isActive ? styles.active : ""}>
                 <span className={styles.bold}>03</span> TECHNOLOGY

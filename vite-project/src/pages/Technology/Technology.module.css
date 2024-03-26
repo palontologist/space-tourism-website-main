@@ -1,0 +1,73 @@
+.background {
+  background-image: url("/technology/background-technology-desktop.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 4.72px;
+  font-size: 28px;
+}
+
+.container {
+  max-width: 70rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.second-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* padding-top: 10rem; */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.technology-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.option {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.active {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #0b0d17;
+  font-size: 32px;
+  border-radius: 50%;
+}
+
+.photo {
+  max-height: 70vh;
+}

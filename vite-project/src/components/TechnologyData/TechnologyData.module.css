@@ -1,0 +1,32 @@
+:root {
+  --main-font: "Bellefair", serif;
+  --second-font-regular: "Barlow", sans-serif;
+  --second-font-condensed: "Barlow Condensed", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.role {
+  font-family: var(--main-font);
+  font-size: 32px;
+  /* opacity: 0.5; */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.name {
+  font-family: var(--main-font);
+  font-size: 56px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.bio {
+  width: 444px;
+  font-family: var(--second-font-regular);
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+}
