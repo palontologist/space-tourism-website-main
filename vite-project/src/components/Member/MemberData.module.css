@@ -30,3 +30,10 @@
   line-height: 32px;
   color: #d0d6f9;
 }
+
+@media only screen and (max-width: 1280px) {
+  .bio {
+    width: 100%;
+    max-width: 600px;
+  }
+}
