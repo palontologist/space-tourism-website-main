@@ -18,13 +18,10 @@ const Technology = ({ technology }: Props) => {
 
   useEffect(() => {
     function handleResize() {
-      if (window.innerWidth > 1280) {
-        setIsLargeScreen(true);
-      }
-      if (window.innerWidth < 1280) {
-        setIsLargeScreen(false);
-      }
+      setIsLargeScreen(window.innerWidth > 1280);
     }
+
+    handleResize();
 
     window.addEventListener("resize", handleResize);
 
@@ -80,7 +77,7 @@ const Technology = ({ technology }: Props) => {
                 </NavLink>
               </li>
             </ul>
-            <TechnologyData technology={technology} />
+            <TechnologyData technologyData={technologyData} />
           </div>
           <img
             className={styles.photo}

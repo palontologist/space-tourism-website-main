@@ -1,14 +1,14 @@
-import data from "../../data.json";
 import styles from "./TechnologyData.module.css";
 
-interface Props {
-  technology: string;
+interface Details {
+  name: string;
+  description: string;
 }
-const MemberData = ({ technology }: Props) => {
-  const technologyData = data.technology.find(
-    (member) => member.name === technology
-  );
 
+interface Props {
+  technologyData: Details | undefined;
+}
+const MemberData = ({ technologyData }: Props) => {
   return (
     <div className={styles.container}>
       <p className={styles.caption}>THE TERMINOLOGY...</p>
