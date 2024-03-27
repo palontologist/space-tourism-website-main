@@ -1,7 +1,6 @@
 .background {
   background-image: url("/home/background-home-desktop.jpg");
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10,9 +9,11 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding-top: 20rem;
   padding-left: 10rem;
   padding-right: 10rem;
-  height: 80vh;
 }
 
 .description {
@@ -63,4 +64,36 @@
   -webkit-box-shadow: 0px 0px 5px 74px rgba(151, 151, 151, 0.42);
   -moz-box-shadow: 0px 0px 5px 74px rgba(151, 151, 151, 0.42);
   box-shadow: 0px 0px 5px 74px rgba(151, 151, 151, 0.42);
+}
+
+@media only screen and (max-width: 870px) {
+  .background {
+    background-image: url("/home/background-home-tablet.jpg");
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 12rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .title {
+    margin: 1.5rem 0 1.5rem;
+  }
+
+  .button {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
 }
