@@ -5,24 +5,25 @@
   background-size: cover;
 }
 
+.container {
+  max-width: 100rem;
+  /* min-height: 100vh; */
+  margin: 0 auto;
+  padding-top: 15rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
 .title {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
   letter-spacing: 4.72px;
   font-size: 28px;
-}
-
-.container {
-  max-width: 100rem;
-  min-height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding-left: 10rem;
-  padding-right: 10rem;
 }
 
 .second-section {
@@ -69,7 +70,6 @@
   .container {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 10rem;
   }
 
   .second-section {

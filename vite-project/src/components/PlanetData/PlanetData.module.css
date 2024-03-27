@@ -49,6 +49,11 @@
 }
 
 @media only screen and (max-width: 1280px) {
+  .container {
+    width: 100%;
+    max-width: 70vw;
+  }
+
   .bottom-section {
     justify-content: center;
     align-items: center;
