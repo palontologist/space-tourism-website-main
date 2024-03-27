@@ -1,3 +1,8 @@
+.menuWrapper {
+  position: fixed;
+  width: 100%;
+}
+
 .menu {
   margin: 0 auto;
   margin-top: 3rem;
@@ -6,8 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  width: 100vw;
+  max-width: 100rem;
 }
 
 .logoContainer {
@@ -53,7 +57,7 @@
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 870px) {
   .menu {
     margin-top: 0px;
   }
