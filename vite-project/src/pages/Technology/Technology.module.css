@@ -1,15 +1,14 @@
 .background {
   background-image: url("/technology/background-technology-desktop.jpg");
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .container {
-  /* max-width: 70rem; */
-  min-height: 100vh;
-  /* margin: 0 auto; */
+  max-width: 100rem;
+  padding-top: 15rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,10 +38,15 @@
   flex-direction: column-reverse;
 }
 
+.main-body {
+  display: flex;
+}
+
 .technology-menu {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-right: 5rem;
 }
 
 .option {
@@ -68,6 +72,50 @@
   border-radius: 50%;
 }
 
-.photo {
+/* .photo {
   max-height: 70vh;
+} */
+
+.photo {
+  width: 515px;
+  height: 527px;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1280px) {
+  .background {
+    background-image: url("/technology/background-technology-tablet.jpg");
+  }
+
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 4rem;
+  }
+
+  .title {
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+  }
+
+  .second-section {
+    flex-direction: column-reverse;
+  }
+
+  .main-body {
+    flex-direction: column;
+  }
+
+  .technology-menu {
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+
+  .photo {
+    min-width: 100vw;
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
