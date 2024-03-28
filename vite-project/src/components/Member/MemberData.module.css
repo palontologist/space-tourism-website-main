@@ -37,3 +37,18 @@
     max-width: 600px;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .role {
+    font-size: 16px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .bio {
+    font-size: 15px;
+    width: 75vw;
+  }
+}

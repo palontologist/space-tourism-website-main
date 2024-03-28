@@ -7,7 +7,6 @@
 
 .container {
   max-width: 100rem;
-  /* min-height: 100vh; */
   margin: 0 auto;
   padding-top: 15rem;
   padding-left: 10rem;
@@ -85,5 +84,39 @@
   .title {
     margin-bottom: 3rem;
     margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    padding-top: 10rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second-section {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .title {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  .photo {
+    width: 40%;
+  }
+
+  .main-content {
+    flex-direction: column;
+    padding: 0 2rem;
+    margin-bottom: 6rem;
+    border-top: 3px solid #383b4b;
+  }
+
+  .crew-menu {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
