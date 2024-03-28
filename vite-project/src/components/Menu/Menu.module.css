@@ -45,6 +45,10 @@
   padding-bottom: 2.5rem;
 }
 
+.menu-list a > span:hover {
+  border-bottom: #979797 4px solid;
+}
+
 .bold {
   font-weight: 600;
 }
@@ -131,5 +135,10 @@
     display: block;
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .menu-list a > span:hover {
+    border-bottom: none;
+    border-right: #979797 4px solid;
   }
 }
