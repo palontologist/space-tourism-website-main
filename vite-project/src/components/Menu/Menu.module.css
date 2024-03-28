@@ -15,7 +15,7 @@
 }
 
 .logoContainer {
-  width: 6rem;
+  width: 10rem;
   display: flex;
   justify-content: center;
 }
@@ -87,6 +87,10 @@
 }
 
 @media only screen and (max-width: 650px) {
+  .logoContainer {
+    width: 6rem;
+  }
+
   .menu {
     margin-top: 2rem;
     margin-right: 2rem;
