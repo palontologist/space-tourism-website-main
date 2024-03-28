@@ -46,8 +46,12 @@
 .option {
   width: 15px;
   height: 15px;
-  background-color: #979797;
   border-radius: 50%;
+  background-color: #979797;
+}
+
+.option:hover {
+  opacity: 50%;
 }
 
 .active {
