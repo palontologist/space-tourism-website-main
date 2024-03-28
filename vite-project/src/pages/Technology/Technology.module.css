@@ -90,11 +90,12 @@
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 4rem;
+    padding-top: 10rem;
   }
 
   .title {
     margin-bottom: 3rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
 
   .second-section {
@@ -121,7 +122,6 @@
 
 @media only screen and (max-width: 650px) {
   .container {
-    padding-top: 10rem;
     justify-content: center;
     align-items: center;
   }
