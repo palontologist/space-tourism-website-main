@@ -20,7 +20,7 @@ const Destination = ({ planet }: Props) => {
         </h1>
 
         <div className={styles[`second-section`]}>
-          <img src={planetData?.images.png} />
+          <img className={styles.planetPhoto} src={planetData?.images.png} />
           <div>
             <div className={styles[`planets-menu`]}>
               <nav>

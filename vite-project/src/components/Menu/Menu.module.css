@@ -15,7 +15,7 @@
 }
 
 .logoContainer {
-  width: 10rem;
+  width: 6rem;
   display: flex;
   justify-content: center;
 }
@@ -75,7 +75,7 @@
   background-color: #ffffff;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 1280px) {
   .menu {
     margin-top: 0px;
   }
