@@ -103,4 +103,8 @@
     position: relative;
     z-index: 99;
   }
+
+  .description {
+    max-width: 80vw;
+  }
 }
