@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./Menu.module.css";
 
 const Menu = () => {
+  const [isHamburgerClicked, setIsHamburgerClicked] = useState(false);
+
   return (
     <div className={styles.menuWrapper}>
       <div className={styles.menu}>
@@ -22,7 +25,11 @@ const Menu = () => {
           </svg>
         </div>
         {/* <div className={styles.line}></div> */}
-        <ul className={styles[`menu-list`]}>
+        <ul
+          className={`${styles[`menu-list`]} ${
+            isHamburgerClicked ? styles.menuActive : null
+          }`}
+        >
           <li>
             <NavLink to="/">
               {({ isActive }) => (
@@ -60,6 +67,16 @@ const Menu = () => {
             </NavLink>
           </li>
         </ul>
+        <div
+          className={`${styles.hamburger} ${
+            isHamburgerClicked ? styles.menuActive : null
+          }`}
+          onClick={() => setIsHamburgerClicked((prev) => !prev)}
+        >
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+        </div>
       </div>
     </div>
   );

@@ -5,7 +5,9 @@ import styles from "./Home.module.css";
 const Home = () => {
   return (
     <div className={styles.background}>
-      <Menu />
+      <div className={styles.menuContainer}>
+        <Menu />
+      </div>
       <div className={styles.container}>
         <div className={styles.description}>
           <p className={styles.heading}>SO, YOU WANT TO TRAVEL TO</p>
