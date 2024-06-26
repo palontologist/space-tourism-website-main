@@ -10,13 +10,14 @@ const Home = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.description}>
-          <p className={styles.heading}>SO, YOU WANT TO TRAVEL TO</p>
-          <h1 className={styles.title}>SPACE</h1>
+          <p className={styles.heading}>SHAPING THE FUTURE OF CONNECTIVITY</p>
+          <h1 className={styles.title}>Afriorbit</h1>
           <p className={styles.info}>
-            Let’s face it; if you want to go to space, you might as well
-            genuinely go to outer space and not hover kind of on the edge of it.
-            Well sit back, and relax because we’ll give you a truly out of this
-            world experience!
+            
+            AfriOrbit bridges the digital divide for businesses,
+            providing secure, scalable, and sustainable data center solutions alongside reliable internet connectivity options.
+            We empower you to revolutionize your operations with:
+            Diverse connectiviy solutions, modern data centres, Edusat/Rocketry programs , Spaceport
           </p>
         </div>
         <Link to="destination/moon">
