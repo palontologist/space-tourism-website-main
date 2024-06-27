@@ -66,7 +66,7 @@ const Technology = ({ technology }: Props) => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="../space-capsule">
+                <NavLink to="../eo">
                   {({ isActive }) => (
                     <div
                       className={`${isActive ? styles.active : styles.option} `}
