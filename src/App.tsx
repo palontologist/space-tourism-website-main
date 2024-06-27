@@ -18,9 +18,9 @@ const router = createBrowserRouter([
         path: "edusat",
         element: <Destination planet="Edusat" />,
       },
-      { path: "mars", element: <Destination planet="Rocketry" /> },
-      { path: "europa", element: <Destination planet="Robotics" /> },
-      { path: "titan", element: <Destination planet="IOT" /> },
+      { path: "rocketry", element: <Destination planet="Rocketry" /> },
+      { path: "robotics", element: <Destination planet="Robotics" /> },
+      { path: "iot", element: <Destination planet="IOT" /> },
     ],
   },
   {

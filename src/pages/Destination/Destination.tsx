@@ -24,28 +24,28 @@ const Destination = ({ planet }: Props) => {
           <div>
             <div className={styles[`planets-menu`]}>
               <nav>
-                <NavLink to="../moon">
+                <NavLink to="../edusat">
                   {({ isActive }) => (
                     <p className={isActive ? styles.active : ""}>EDUSAT</p>
                   )}
                 </NavLink>
               </nav>
               <nav>
-                <NavLink to="../mars">
+                <NavLink to="../rocketry">
                   {({ isActive }) => (
                     <p className={isActive ? styles.active : ""}>ROCKETRY</p>
                   )}
                 </NavLink>
               </nav>
               <nav>
-                <NavLink to="../europa">
+                <NavLink to="../robotics">
                   {({ isActive }) => (
                     <p className={isActive ? styles.active : ""}>ROBOTICS</p>
                   )}
                 </NavLink>
               </nav>
               <nav>
-                <NavLink to="../titan">
+                <NavLink to="../iot">
                   {({ isActive }) => (
                     <p className={isActive ? styles.active : ""}>IOT</p>
                   )}
