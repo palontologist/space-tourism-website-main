@@ -15,12 +15,12 @@ const router = createBrowserRouter([
     path: "destination",
     children: [
       {
-        path: "moon",
-        element: <Destination planet="Moon" />,
+        path: "edusat",
+        element: <Destination planet="Edusat" />,
       },
-      { path: "mars", element: <Destination planet="Mars" /> },
-      { path: "europa", element: <Destination planet="Europa" /> },
-      { path: "titan", element: <Destination planet="Titan" /> },
+      { path: "mars", element: <Destination planet="Rocketry" /> },
+      { path: "europa", element: <Destination planet="Robotics" /> },
+      { path: "titan", element: <Destination planet="IOT" /> },
     ],
   },
   {
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "launch-vehicle",
-        element: <Technology technology="Launch vehicle" />,
+        element: <Technology technology="Satcom" />,
       },
       {
         path: "Spaceport",
@@ -51,7 +51,7 @@ const router = createBrowserRouter([
       },
       {
         path: "space-capsule",
-        element: <Technology technology="Space capsule" />,
+        element: <Technology technology="Earth Observation" />,
       },
     ],
   },

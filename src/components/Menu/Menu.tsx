@@ -37,7 +37,7 @@ const Menu = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/destination/moon">
+            <NavLink to="/destination/edusat">
               {({ isActive }) => (
                 <span className={isActive ? styles.active : styles[`not-moon`]}>
                   <span className={styles.bold}>01</span> EDUSPACE

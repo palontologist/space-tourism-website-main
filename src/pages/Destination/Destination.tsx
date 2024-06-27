@@ -16,7 +16,7 @@ const Destination = ({ planet }: Props) => {
       <Menu />
       <div className={styles.container}>
         <h1 className={styles.title}>
-          <span>01</span>PICK YOUR DESTINATION
+          <span>01</span>Empower the Future with Edusat
         </h1>
 
         <div className={styles[`second-section`]}>
@@ -26,28 +26,28 @@ const Destination = ({ planet }: Props) => {
               <nav>
                 <NavLink to="../moon">
                   {({ isActive }) => (
-                    <p className={isActive ? styles.active : ""}>MOON</p>
+                    <p className={isActive ? styles.active : ""}>EDUSAT</p>
                   )}
                 </NavLink>
               </nav>
               <nav>
                 <NavLink to="../mars">
                   {({ isActive }) => (
-                    <p className={isActive ? styles.active : ""}>MARS</p>
+                    <p className={isActive ? styles.active : ""}>ROCKETRY</p>
                   )}
                 </NavLink>
               </nav>
               <nav>
                 <NavLink to="../europa">
                   {({ isActive }) => (
-                    <p className={isActive ? styles.active : ""}>EUROPA</p>
+                    <p className={isActive ? styles.active : ""}>ROBOTICS</p>
                   )}
                 </NavLink>
               </nav>
               <nav>
                 <NavLink to="../titan">
                   {({ isActive }) => (
-                    <p className={isActive ? styles.active : ""}>TITAN</p>
+                    <p className={isActive ? styles.active : ""}>IOT</p>
                   )}
                 </NavLink>
               </nav>

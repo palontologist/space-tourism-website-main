@@ -20,7 +20,7 @@ const Home = () => {
             Diverse connectiviy solutions, modern data centres, Edusat/Rocketry programs , Spaceport
           </p>
         </div>
-        <Link to="destination/moon">
+        <Link to="destination/edusat">
           <button className={styles.button}>EXPLORE</button>
         </Link>
       </div>

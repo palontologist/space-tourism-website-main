@@ -1,42 +1,42 @@
 {
   "destinations": [
     {
-      "name": "Moon",
+      "name": "Edusat",
       "images": {
-        "png": "/destination/image-moon.png",
+        "png": "/destination/rocket.png",
         "webp": "/destination/image-moon.webp"
       },
-      "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+      "description": "AfriOrbit's Edusat program leverages the power of satellites to deliver interactive and engaging educational experiences, regardless of location. We bridge the geographic divide, bringing quality education directly to classrooms, universities, and research institutions across Africa.",
       "distance": "384,400 km",
       "travel": "3 days"
     },
     {
-      "name": "Mars",
+      "name": "Rocketry",
       "images": {
-        "png": "/destination/image-mars.png",
+        "png": "/destination/rocket.png",
         "webp": "/destination/image-mars.webp"
       },
-      "description": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
+      "description": "Our Rocketry program offers an exhilarating introduction to the principles of aerospace engineering and rocket propulsion.",
       "distance": "225 mil. km",
       "travel": "9 months"
     },
     {
-      "name": "Europa",
+      "name": "Robotics",
       "images": {
-        "png": "/destination/image-europa.png",
+        "png": "/destination/ro.jpg",
         "webp": "/destination/image-europa.webp"
       },
-      "description": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
+      "description": " AfriOrbit's Robotics program ignites passion for engineering and technology in young minds.",
       "distance": "628 mil. km",
       "travel": "3 years"
     },
     {
-      "name": "Titan",
+      "name": "IOT",
       "images": {
-        "png": "/destination/image-titan.png",
+        "png": "/destination/robot.jpg",
         "webp": "/destination/image-titan.webp"
       },
-      "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
+      "description": "AfriOrbit's IoT program equips students and researchers with the skills and tools to develop and implement next-generation internet-connected devices.",
       "distance": "1.6 bil. km",
       "travel": "7 years"
     }
@@ -81,12 +81,12 @@
   ],
   "technology": [
     {
-      "name": "Launch vehicle",
+      "name": "Satcom",
       "images": {
         "portrait": "/technology/image-launch-vehicle-portrait.jpg",
         "landscape": "/technology/image-launch-vehicle-landscape.jpg"
       },
-      "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
+      "description": "Afriorbit's satellite communication solutions empower businesses to thrive in a world of 75 billion connected devices by 2025, across a wide range of industrial IoT applications."
     },
     {
       "name": "Spaceport",
@@ -94,10 +94,10 @@
         "portrait": "/technology/image-spaceport-portrait.jpg",
         "landscape": "/technology/image-spaceport-landscape.jpg"
       },
-      "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+      "description": "AfriOrbit is at the forefront of space exploration, spearheading the development of a world-class spaceport on the Kenyan coast. This strategically located facility, leveraging the Earth's natural rotation for enhanced launch efficiency, will not only position Kenya as a major player in the global space industry but also create exciting opportunities for scientific research, satellite deployment, and commercial space ventures."
     },
     {
-      "name": "Space capsule",
+      "name": "Earth Observation",
       "images": {
         "portrait": "/technology/image-space-capsule-portrait.jpg",
         "landscape": "/technology/image-space-capsule-landscape.jpg"
