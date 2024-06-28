@@ -7,7 +7,7 @@
         "webp": "/destination/image-moon.webp"
       },
       "description": "AfriOrbit's Edusat program leverages the power of satellites to deliver interactive and engaging educational experiences, regardless of location. We bridge the geographic divide, bringing quality education directly to classrooms, universities, and research institutions across Africa.",
-      "distance": "384,400 km",
+      "distance": "",
       "travel": "3 days"
     },
     {
@@ -17,7 +17,7 @@
         "webp": "/destination/image-mars.webp"
       },
       "description": "Our Rocketry program offers an exhilarating introduction to the principles of aerospace engineering and rocket propulsion.",
-      "distance": "225 mil. km",
+      "distance": "",
       "travel": "9 months"
     },
     {
@@ -27,8 +27,8 @@
         "webp": "/destination/image-europa.webp"
       },
       "description": " AfriOrbit's Robotics program ignites passion for engineering and technology in young minds.",
-      "distance": "628 mil. km",
-      "travel": "3 years"
+      "distance": "",
+      "travel": "9 months"
     },
     {
       "name": "IOT",
@@ -37,8 +37,8 @@
         "webp": "/destination/image-titan.webp"
       },
       "description": "AfriOrbit's IoT program equips students and researchers with the skills and tools to develop and implement next-generation internet-connected devices.",
-      "distance": "1.6 bil. km",
-      "travel": "7 years"
+      "distance": "",
+      "travel": "9 months"
     }
   ],
   "crew": [

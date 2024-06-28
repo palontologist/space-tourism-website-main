@@ -19,13 +19,13 @@ const PlanetData = ({ planet }: Props) => {
 
         <div className={styles[`bottom-section`]}>
           <div>
-            <h2 className={styles[`bottom-title`]}>AVG. DISTANCE</h2>
+            <h2 className={styles[`bottom-title`]}> </h2>
             <p className={styles[`bottom-info`]}>
               {planetData?.distance.toUpperCase()}
             </p>
           </div>
           <div>
-            <h2 className={styles[`bottom-title`]}>EST. TRAVEL TIME</h2>
+            <h2 className={styles[`bottom-title`]}>EST TIME</h2>
             <p className={styles[`bottom-info`]}>
               {planetData?.travel.toUpperCase()}
             </p>
